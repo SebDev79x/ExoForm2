@@ -8,9 +8,11 @@ import RegisterScreen from './src/views/registerscreen';
 import RegisterScreen2 from './src/views/registerscreen2';
 import 'react-native-gesture-handler';
 import CongratsScreen from './src/views/congratsscreen';
+import Test from './src/views/test'
 
 const Stack = createNativeStackNavigator();
-
+{/*         <Stack.Screen name="Inscription" component={RegisterScreen} />
+ */} 
 
 export default function App() {
   return (
@@ -20,7 +22,7 @@ export default function App() {
         <Stack.Screen name="Accueil" component={HomeScreen} />
         <Stack.Screen name="Connexion" component={LoginScreen} />
         <Stack.Screen name="Inscription" component={RegisterScreen} />
-        <Stack.Screen name="InscriptionSuite" component={RegisterScreen2} />
+       <Stack.Screen name="InscriptionSuite" component={RegisterScreen2} />
         <Stack.Screen name="congrats" component={CongratsScreen} />
 
       </Stack.Navigator>
@@ -31,7 +33,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
   },
