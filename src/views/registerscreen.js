@@ -17,7 +17,7 @@ const loginValidationSchema = yup.object().shape({
     .required('Requis')
     .matches(
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/,
-      "Alors ??? ça matche ?"
+      "Pattern non respecté"
     ),
   password2: yup
     .string()
@@ -25,7 +25,7 @@ const loginValidationSchema = yup.object().shape({
     .required('Requis')
     .matches(
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/,
-      "Alors ??? ça matche ?"
+      "Pattern non respecté"
     )
 });
 

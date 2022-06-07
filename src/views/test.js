@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { StyleSheet, Text, View, Button, Platform,TouchableOpacity } from 'react-native';
-import 'react-native-gesture-handler';
 
 
 const DatePickerComponent = (props) => {

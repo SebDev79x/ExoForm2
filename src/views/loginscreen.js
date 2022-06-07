@@ -160,7 +160,6 @@ const styles = StyleSheet.create({
   pic: {
     width: 250,
     height: 250,
-    resizeMode: 'contain'
   },
     picContainer: {
       flex: .4,
